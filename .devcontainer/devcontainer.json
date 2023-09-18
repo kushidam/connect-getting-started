@@ -1,0 +1,21 @@
+{
+    "name": "Go DevContainer",
+    "build": {
+        "dockerfile": "./Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mhutchie.git-graph",
+				"eamodio.gitlens",
+				"golang.go",
+				"oderwat.indent-rainbow",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"PKief.material-icon-theme",
+				"mosapride.zenkaku"
+			]
+		}
+	}
+}
