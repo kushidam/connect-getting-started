@@ -14,9 +14,9 @@ import (
 )
 
 const (
-	// Verify that this generated code is sufficiently up-to-date.
+	// この生成されたコードが十分に最新であることを確認する。
 	_ = protoimpl.EnforceVersion(20 - protoimpl.MinVersion)
-	// Verify that runtime/protoimpl is sufficiently up-to-date.
+	// runtime/protoimplが十分に最新であることを確認する。
 	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
 )
 
@@ -55,7 +55,7 @@ func (x *GreetRequest) ProtoReflect() protoreflect.Message {
 	return mi.MessageOf(x)
 }
 
-// Deprecated: Use GreetRequest.ProtoReflect.Descriptor instead.
+// 非推奨： 代わりにGreetRequest.ProtoReflect.Descriptorを使用してください。
 func (*GreetRequest) Descriptor() ([]byte, []int) {
 	return file_greet_v1_greet_proto_rawDescGZIP(), []int{0}
 }
@@ -102,7 +102,7 @@ func (x *GreetResponse) ProtoReflect() protoreflect.Message {
 	return mi.MessageOf(x)
 }
 
-// Deprecated: Use GreetResponse.ProtoReflect.Descriptor instead.
+// 非推奨： 代わりに GreetResponse.ProtoReflect.Descriptor を使用してください。
 func (*GreetResponse) Descriptor() ([]byte, []int) {
 	return file_greet_v1_greet_proto_rawDescGZIP(), []int{1}
 }
@@ -155,11 +155,11 @@ var file_greet_v1_greet_proto_goTypes = []interface{}{
 var file_greet_v1_greet_proto_depIdxs = []int32{
 	0, // 0: greet.v1.GreetService.Greet:input_type -> greet.v1.GreetRequest
 	1, // 1: greet.v1.GreetService.Greet:output_type -> greet.v1.GreetResponse
-	1, // [1:2] is the sub-list for method output_type
-	0, // [0:1] is the sub-list for method input_type
-	0, // [0:0] is the sub-list for extension type_name
-	0, // [0:0] is the sub-list for extension extendee
-	0, // [0:0] is the sub-list for field type_name
+	1, // [1:2]はoutput_typeメソッドのサブリスト
+	0, // [0:1]はinput_typeメソッドのサブリスト
+	0, // [0:0]は拡張子type_nameのサブリスト
+	0, // [0:0]は拡張子extendeeのサブリスト
+	0, // [0:0]はフィールドtype_nameのサブリスト
 }
 
 func init() { file_greet_v1_greet_proto_init() }
